@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #ffe6f0, #ffe6ff);
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #ffb6c1;
+    color: white;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+  }
+  .section {
+    max-width: 800px;
+    margin: auto;
+    padding: 40px 20px;
+    background: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .slideshow img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  .reasons ul {
+    list-style: heart;
+    padding-left: 20px;
+  }
+  audio,
+  video {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1em;
+    color: #888;
+  }
